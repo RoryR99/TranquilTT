@@ -2,13 +2,13 @@
 
 const comments = [
   {
-    user: "Valmiki",
+    user: "Reshma",
     avatar: "./images/comments__bubble-avatar-1.png",
     comment:
       "I feel like work is overwhelming me, I make an effort, but I feel like I don't give enough and I reach very extreme levels of exhaustion. How do I deal with that? 🙏",
   },
   {
-    user: "Marvin",
+    user: "Marlon",
     avatar: "./images/comments__bubble-avatar-2.png",
     comment:
       "I'm worried because at work they already told us that remote is over and I don't want that to happen. Being around people 😐 exhausts me and I don't know how to handle it.",
@@ -52,7 +52,7 @@ const professionals = [
   },
   {
     image: "./images/professionals_Dario.png",
-    title: "Darío Silva",
+    title: "Daris Singh",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#E9E0C9",
@@ -66,7 +66,7 @@ const professionals = [
   },
  {
     image: "./images/professionals_Fabio.png",
-    title: "Fabio Hernan",
+    title: "Matthew Gopaul",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#C5E588",
@@ -80,7 +80,7 @@ const professionals = [
 },
  {
     image: "./images/professionals_Barbara.png",
-    title: "Bárbara Chen",
+    title: "Barbra Brown",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#F59292",

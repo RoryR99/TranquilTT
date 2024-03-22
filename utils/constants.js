@@ -52,7 +52,7 @@ const professionals = [
   },
   {
     image: "./images/professionals_Dario.png",
-    title: "Daris Singh",
+    title: "Darius Singh",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#E9E0C9",

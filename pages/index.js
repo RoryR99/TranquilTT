@@ -146,11 +146,11 @@ moodEstupendoButton.addEventListener("click", () => {
   moodEstupendoButton.classList.toggle("moods__button_estupendo_active");
   moodCard.classList.toggle("moods__button_estupendo_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "¡Excelente! 🙂";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  moodCardTitle.textContent = "Excellent! 🙂";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
@@ -158,11 +158,11 @@ moodTristeButton.addEventListener("click", () => {
   moodTristeButton.classList.toggle("moods__button_triste_active");
   moodCard.classList.toggle("moods__button_triste_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "Es normal sentirse triste";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+ moodCardTitle.textContent = "It's normal to feel sad";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
@@ -170,11 +170,11 @@ moodOkayButton.addEventListener("click", () => {
   moodOkayButton.classList.toggle("moods__button_okay_active");
   moodCard.classList.toggle("moods__button_okay_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "¡Está bien! 🙂";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+ moodCardTitle.textContent = "It's okay! 🙂";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
@@ -182,11 +182,11 @@ moodPreocupadoButton.addEventListener("click", () => {
   moodPreocupadoButton.classList.toggle("moods__button_preocupado_active");
   moodCard.classList.toggle("moods__button_preocupado_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "Es normal sentirse así 😞";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  moodCardTitle.textContent = "It's normal to feel this way 😞";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
@@ -194,11 +194,11 @@ moodEstresadoButton.addEventListener("click", () => {
   moodEstresadoButton.classList.toggle("moods__button_estresado_active");
   moodCard.classList.toggle("moods__button_estresado_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "Es normal sentirse así 😞";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  moodCardTitle.textContent = "Feeling this way is normal 😞";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
@@ -206,22 +206,20 @@ moodCansadoButton.addEventListener("click", () => {
   moodCansadoButton.classList.toggle("moods__button_cansado_active");
   moodCard.classList.toggle("moods__button_cansado_active");
   moodCard.classList.toggle("moods__card_active");
-  moodCardTitle.textContent = "Es normal sentirse así 😞";
-  moodArgument1.textContent = "Lidiar con la soledad.";
-  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
-  moodArgument3.textContent =
-    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  moodCardTitle.textContent = "It's normal to feel this way 😞";
+moodArgument1.textContent = "Dealing with loneliness.";
+moodArgument2.textContent = "The struggle with mental health changed my life.";
+moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+
   checkClassList();
 });
 
 // reset text on button click
 const resetText = () => {
-  moodCardTitle.textContent = "¿Cómo estás?";
-  moodArgument1.textContent = "Comparte tu historia con los demas.";
-  moodArgument2.textContent =
-    "Lee las historias de otros usuarios y deja un comentario.";
-  moodArgument3.textContent =
-    "Es importante que sepas que no estas solo en esto.";
+  moodCardTitle.textContent = "How are you?";
+moodArgument1.textContent = "Share your story with others.";
+moodArgument2.textContent = "Read stories from other users and leave a comment.";
+moodArgument3.textContent = "It's important for you to know that you're not alone in this.";
 };
 
 function checkClassList() {

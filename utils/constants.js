@@ -2,28 +2,28 @@
 
 const comments = [
   {
-    user: "Valeria",
+    user: "Valmiki",
     avatar: "./images/comments__bubble-avatar-1.png",
     comment:
-      "Siento que el trabajo me sobrelleva, me esfuerzo, pero siento que no  doy lo suficiente y llego a extremos de agotamiento muy fuertes. ¿Cómo lidio con eso? 🙏",
+      "I feel like work is overwhelming me, I make an effort, but I feel like I don't give enough and I reach very extreme levels of exhaustion. How do I deal with that? 🙏",
   },
   {
-    user: "Manuel",
+    user: "Marvin",
     avatar: "./images/comments__bubble-avatar-2.png",
     comment:
-      "Estoy preocupado porque en mi trabajo ya nos dijeron que se acabó el remoto y no quiero que pase. Me agota estar rodeado de personas 😐 y no sé cómo llevarlo.",
+      "I'm worried because at work they already told us that remote is over and I don't want that to happen. Being around people 😐 exhausts me and I don't know how to handle it.",
   },
   {
-    user: "Anónimo",
+    user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-3.png",
     comment:
-      "Me pasa que desconfío de los días en que me va bien todo, siento que se va a arruinar en cualquier momento y es muy fastidioso vivir así. ¿Alguien más? 🤡",
+      "I sometimes find myself distrusting days when everything is going well for me. I feel like it's going to be ruined at any moment, and it's very annoying to live like this. Does anyone else feel this way? 🤡",
   },
   {
-    user: "Anónimo",
+    user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-4.png",
     comment:
-      "Estoy llevando un proceso de duelo 😔 por la perdida de un familiar, nunca pensé que sería tan duro el apego a una persona . Ojalá y fuera más sencillo.",
+      "I'm going through a grieving process 😔 due to the loss of a family member. I never thought attachment to a person would be this tough. I wish it were easier.",
   },
 ];
 
@@ -38,56 +38,60 @@ const commentSelectors = {
 const professionals = [
   {
     image: "./images/professionals_Roxy.png",
-    title: "Roxy Glass",
-    subtitle: "Ver perfil",
-    cta: "PIDE UNA CITA",
+    title: "Maxine Stone",
+    subtitle: "View Profile",
+    cta: "REQUEST AN APPOINTMENT",
     color: "#B49BFF",
     data:
-      "<p>Me especializo en:</p>" +
+      "<p>I specialize in:</p>" +
       "<ul>" +
-      "<li>Psicología clínica</li>" +
-      "<li>Neuropsicología</li>" +
-      "<li>Psicología Comparativa</li>",
+      "<li>Clinical Psychology</li>" +
+      "<li>Neuropsychology</li>" +
+      "<li>Comparative Psychology</li>" +
+      "</ul>"
   },
   {
     image: "./images/professionals_Dario.png",
     title: "Darío Silva",
-    subtitle: "Ver perfil",
-    cta: "PIDE UNA CITA",
+    subtitle: "View Profile",
+    cta: "REQUEST AN APPOINTMENT",
     color: "#E9E0C9",
     data:
-      "<p>Me especializo en:</p>" +
+      "<p>I specialize in:</p>" +
       "<ul>" +
-      "<li>Psicología Empresarial</li>" +
-      "<li>Psicología Jurídica</li>" +
-      "<li>Psicología Gerontológica</li>",
+      "<li>Business Psychology</li>" +
+      "<li>Forensic Psychology</li>" +
+      "<li>Gerontological Psychology</li>" +
+      "</ul>"
   },
-  {
+ {
     image: "./images/professionals_Fabio.png",
     title: "Fabio Hernan",
-    subtitle: "Ver perfil",
-    cta: "PIDE UNA CITA",
+    subtitle: "View Profile",
+    cta: "REQUEST AN APPOINTMENT",
     color: "#C5E588",
     data:
-      "<p>Me especializo en:</p>" +
+      "<p>I specialize in:</p>" +
       "<ul>" +
-      "<li>Psicología de Pareja</li>" +
-      "<li>Psicología de Familia</li>" +
-      "<li>Psicología de Desarrollo</li>",
-  },
-  {
+      "<li>Couples Psychology</li>" +
+      "<li>Family Psychology</li>" +
+      "<li>Developmental Psychology</li>" +
+      "</ul>"
+},
+ {
     image: "./images/professionals_Barbara.png",
     title: "Bárbara Chen",
-    subtitle: "Ver perfil",
-    cta: "PIDE UNA CITA",
+    subtitle: "View Profile",
+    cta: "REQUEST AN APPOINTMENT",
     color: "#F59292",
     data:
-      "<p>Me especializo en:</p>" +
+      "<p>I specialize in:</p>" +
       "<ul>" +
-      "<li>Psicología Psicología Educativa</li>" +
-      "<li>Psicología de Familia</li>" +
-      "<li>Psicología de Desarrollo</li>",
-  },
+      "<li>Educational Psychology</li>" +
+      "<li>Family Psychology</li>" +
+      "<li>Developmental Psychology</li>" +
+      "</ul>"
+},
 ];
 
 const collapsibleCardSelectors = {

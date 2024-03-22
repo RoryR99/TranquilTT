@@ -5,25 +5,25 @@ const comments = [
     user: "Valmiki",
     avatar: "./images/comments__bubble-avatar-1.png",
     comment:
-      "I feel like work is overwhelming me, I make an effort, but I feel like I don't give enough and I reach very extreme levels of exhaustion. How do I deal with that? 🙏",
+      "I feel like work has been so intense lately, I feel like I'm drowning. I contemplate quiting every day. How can I feel more comfortable with my workload? 🙏",
   },
   {
     user: "Marvin",
     avatar: "./images/comments__bubble-avatar-2.png",
     comment:
-      "I'm worried because at work they already told us that remote is over and I don't want that to happen. Being around people 😐 exhausts me and I don't know how to handle it.",
+      "It's so stressful to have to deal with traffic in the morning. My doctor says I've got high blood pressure and I'm worried about bringing the anger at home to my family. How to cope with my anger?",
   },
   {
     user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-3.png",
     comment:
-      "I sometimes find myself distrusting days when everything is going well for me. I feel like it's going to be ruined at any moment, and it's very annoying to live like this. Does anyone else feel this way? 🤡",
+      "I've been so anxious lately, sometimes I walk in a room and feel like I'm suffocating around people.🤡",
   },
   {
     user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-4.png",
     comment:
-      "I'm going through a grieving process 😔 due to the loss of a family member. I never thought attachment to a person would be this tough. I wish it were easier.",
+      "Life has been so hard since I lost my brother 😔. I miss him everyday, sometimes I feel like I cannot deal with the pain.",
   },
 ];
 
@@ -66,7 +66,7 @@ const professionals = [
   },
  {
     image: "./images/professionals_Fabio.png",
-    title: "Fabio Hernan",
+    title: "Esteban Hernan",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#C5E588",
@@ -80,7 +80,7 @@ const professionals = [
 },
  {
     image: "./images/professionals_Barbara.png",
-    title: "Bárbara Chen",
+    title: "Anna Oda",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#F59292",

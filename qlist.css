@@ -57,7 +57,7 @@ h1 {
     "icon title"
     "icon text";
   gap: 0.25em 1em;
-  clip-path: ellipse(
+  clip-path: polygon(
     0 0,
     calc(100% - var(--arrowClipSize)) 0,
     100% 50%,

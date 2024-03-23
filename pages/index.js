@@ -68,7 +68,7 @@ const moodForm = document.querySelector(".popup");
 moodForm.addEventListener("submit", (evt) => {
   evt.preventDefault();
   const commentUser = document.querySelector("#checkmark").checked
-    ? "Anónimo"
+    ? "Anonymous"
     : document.querySelector("#name").value;
   const commentMsg = document.querySelector("#comment").value;
   const commentData = {

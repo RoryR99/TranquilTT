@@ -14,7 +14,7 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/popup/popup.css);
 
-/* ANIMACIONES */
+/* ANIMATIONS */
 
 @import url(../animations/popup-on-hover.css);
 @import url(../animations/pulse.css);
@@ -22,7 +22,7 @@
 @import url(../animations/slide-in.css);
 @import url(../animations/slide-out.css);
 
-/* AJUSTES GLOBALES */
+/* GLOBAL STYLES */
 
 html {
   scroll-behavior: smooth;

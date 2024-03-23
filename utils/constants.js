@@ -1,5 +1,31 @@
 // Example comments
-
+const quotes_SE= [
+  {
+    user: "Anonymous",
+    Avatar: "./images/comments__bubble-avatar-3.png",
+    Comment:
+      "I am the measure of my worth, and I say I am worthy",
+  },
+  {
+    user: "Mathilde Blind",
+    Avatar: "./images/comments__bubble-avatar-3.png",
+    Comment:
+      "Life grows lovely where you are",
+  },
+  {
+    user: "Anonymous",
+    Avatar: "./images/comments__bubble-avatar-3.png",
+    Comment:
+      "Life will knock you down more than you can imagine, Don't knock yourself down",
+  },
+  {
+    user: "Maya Angelou",
+    Avatar: "./images/comments__bubble-avatar-3.png",
+    Comment:
+      "I've got my own back",
+  },
+  
+  
 const comments = [
   {
     user: "Reshma",

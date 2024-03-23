@@ -17,13 +17,13 @@ const comments = [
     user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-3.png",
     comment:
-      "I sometimes find myself distrusting days when everything is going well for me. I feel like it's going to be ruined at any moment, and it's very annoying to live like this. Does anyone else feel this way? 🤡",
+      "I often struggle with a sense of unease when everything seems to be going well. It's as if I'm waiting for the other shoe to drop, and it's incredibly frustrating to live with this constant sense of impending doom. I wonder if anyone else experiences similar feelings? 🤡",
   },
   {
     user: "Anonymous",
     avatar: "./images/comments__bubble-avatar-4.png",
     comment:
-      "I'm going through a grieving process 😔 due to the loss of a family member. I never thought attachment to a person would be this tough. I wish it were easier.",
+      "I'm experiencing a grieving process 😔 following the loss of a family member. I never anticipated that the emotional attachment to someone would be this challenging. I wish the journey through this pain were less daunting, especially considering I can't confide in anyone at work about it.",
   },
 ];
 

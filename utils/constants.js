@@ -24,7 +24,7 @@ const quotes_SE= [
     Comment:
       "I've got my own back",
   },
-  
+  ]
   
 const comments = [
   {

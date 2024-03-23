@@ -27,7 +27,7 @@ h1 {
   display: flex;
   color: white;
   --labelOffset: 1rem;
-  --radialClipSize: 1rem;
+  --arrowClipSize: .5rem;
   margin-top: var(--labelOffset);
 }
 
@@ -51,18 +51,18 @@ h1 {
   --inlinePadding: 1em;
   --boxPadding: 0.5em;
   display: grid;
-  padding: var(--boxPadding) calc(var(--inlinePadding) + var(--radialClipSize))
+  padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
     var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset));
   grid-template-areas:
     "icon title"
     "icon text";
   gap: 0.25em 1em;
-  clip-path: polygon(
+  clip-path: ellipse(
     0 0,
-    calc(100% - var(--radialClipSize)) 0,
+    calc(100% - var(--arrowClipSize)) 0,
     100% 50%,
-    calc(100% - var(--radialClipSize)) 100%,
-    calc(100% - var(--radialClipSize)) calc(100% + var(--cardsGap)),
+    calc(100% - var(--arrowClipSize)) 100%,
+    calc(100% - var(--arrowClipSize)) calc(100% + var(--cardsGap)),
     0 calc(100% + var(--cardsGap))
   );
   position: relative;

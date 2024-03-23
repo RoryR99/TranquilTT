@@ -33,7 +33,7 @@ export default class CollapsibleCard {
   _setImage(imageElement) {
     this._imageElement = this._element.querySelector(imageElement);
     this._imageElement.src = this._image;
-    this._imageElement.alt = `Fotografía de ${this._title}`;
+    this._imageElement.alt = `Photograph of ${this._title}`;
   }
 
   _setText(titleElement, subtitleElement) {

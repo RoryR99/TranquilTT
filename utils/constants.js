@@ -147,6 +147,7 @@ const professionalsContainer = document.querySelector(
 const navbarSelector = ".navbar";
 
 export {
+  quotes_SE,
   comments,
   professionals,
   commentSelectors,

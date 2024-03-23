@@ -2,13 +2,13 @@
 
 const comments = [
   {
-    user: "Valmiki",
+    user: "Reshma",
     avatar: "./images/comments__bubble-avatar-1.png",
     comment:
       "I feel like work has been so intense lately, I feel like I'm drowning. I contemplate quiting every day. How can I feel more comfortable with my workload? 🙏",
   },
   {
-    user: "Marvin",
+    user: "Marlon",
     avatar: "./images/comments__bubble-avatar-2.png",
     comment:
       "It's so stressful to have to deal with traffic in the morning. My doctor says I've got high blood pressure and I'm worried about bringing the anger at home to my family. How to cope with my anger?",
@@ -52,7 +52,7 @@ const professionals = [
   },
   {
     image: "./images/professionals_Dario.png",
-    title: "Darío Silva",
+    title: "Darius Singh",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#E9E0C9",
@@ -66,7 +66,7 @@ const professionals = [
   },
  {
     image: "./images/professionals_Fabio.png",
-    title: "Esteban Hernan",
+    title: "Matthew Gopaul",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#C5E588",
@@ -80,7 +80,8 @@ const professionals = [
 },
  {
     image: "./images/professionals_Barbara.png",
-    title: "Anna Oda",
+
+    title: "Barbra Brown",
     subtitle: "View Profile",
     cta: "REQUEST AN APPOINTMENT",
     color: "#F59292",

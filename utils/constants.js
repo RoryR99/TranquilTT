@@ -24,7 +24,12 @@ const quotes_SE= [
     Comment:
       "I've got my own back",
   },
-  ]
+  ];
+const quoteSelectors = {
+  userElement: ".quotes__bubble-name",
+  avatarElement: ".quotes__bubble-avatar",
+  commentElement: ".quotes__bubble-comment",
+};
   
 const comments = [
   {
@@ -129,6 +134,9 @@ const collapsibleCardSelectors = {
 };
 
 // Templates
+const quotesTemplate = document
+  .querySelector("#template_quotes")
+  .content.querySelector(".quotes__bubble");
 
 const commentTemplate = document
   .querySelector("#template_comments")
@@ -139,7 +147,7 @@ const collapsibleCardTemplate = document
   .content.querySelector(".collapsible-card");
 
 // Variable initialization & Selectors
-
+const quotesContainer = document.querySelector(".quotes__container");
 const commentsContainer = document.querySelector(".comments__container");
 const professionalsContainer = document.querySelector(
   ".professionals__elements"
@@ -147,6 +155,9 @@ const professionalsContainer = document.querySelector(
 const navbarSelector = ".navbar";
 
 export {
+  quoteSelectors
+  quotesContainer,
+  quotesTemplate
   quotes_SE,
   comments,
   professionals,

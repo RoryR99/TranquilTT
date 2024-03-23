@@ -1,9 +1,9 @@
 .hero__list {
-  list-style-image: url(../../../images/bulletpoint.svg);
+  /* list-style-image: url(../../../images/bulletpoint.svg); */
   display: flex;
   flex-direction: column;
   gap: 43px;
-  margin: 40px;
+  margin: 0;
   padding: 0;
 }
 

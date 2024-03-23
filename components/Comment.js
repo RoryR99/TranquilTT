@@ -18,7 +18,7 @@ export default class Comment {
     this._commentElement = this._element.querySelector(commentElement);
     this._userElement.textContent = this._user;
     this._commentElement.textContent = this._comment;
-    this._avatarElement.alt = `Avatar de ${this._user}`;
+    this._avatarElement.alt = `User Avatar of ${this._user}`;
     this._avatarElement.src = this._avatar;
 
     return this._element;

@@ -30,7 +30,7 @@ navbar.setEventListeners();
 
 // Comments render & logic
 
-// REVISAR API
+// REVISE API
 /* api.getStories().then((data) => {
   const commentList = new Section(
     {

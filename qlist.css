@@ -27,7 +27,7 @@ h1 {
   display: flex;
   color: white;
   --labelOffset: 1rem;
-  --arrowClipSize: 1.5rem;
+  --arrowClipSize: 1rem;
   margin-top: var(--labelOffset);
 }
 

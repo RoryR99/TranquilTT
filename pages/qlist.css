@@ -1,10 +1,7 @@
 .qlist {
-  background: #e4ebf4;
   padding: 2rem;
 }
-h2 {
-  font-family: sans-serif;
-}
+
 .olcards,
 .olcards * {
   margin: 0;

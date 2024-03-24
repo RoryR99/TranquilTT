@@ -209,12 +209,7 @@ moodCansadoButton.addEventListener("click", () => {
   moodCardTitle.textContent = "It's normal to feel this way 😞";
   moodArgument1.textContent = "Remember to prioritize rest; your body and mind need time to recharge.";
   moodArgument2.textContent = "Don't hesitate to ask for help or delegate tasks when you're feeling exhausted.";
-  moodArgument3.textContent = "Practice self-compassion; it's okay to take breaks and listen to your body's need for rest.
-
-
-
-
-";
+  moodArgument3.textContent = "Practice self-compassion; it's okay to take breaks and listen to your body's need for rest.";
 
   checkClassList();
 });

@@ -104,6 +104,7 @@ const collapsibleCardSelectors = {
 
 // Templates
 
+
 const commentTemplate = document
   .querySelector("#template_comments")
   .content.querySelector(".comments__bubble");
@@ -113,7 +114,6 @@ const collapsibleCardTemplate = document
   .content.querySelector(".collapsible-card");
 
 // Variable initialization & Selectors
-
 const commentsContainer = document.querySelector(".comments__container");
 const professionalsContainer = document.querySelector(
   ".professionals__elements"
@@ -121,6 +121,7 @@ const professionalsContainer = document.querySelector(
 const navbarSelector = ".navbar";
 
 export {
+
   comments,
   professionals,
   commentSelectors,

@@ -18,55 +18,53 @@
           ><img src="./images/logo.svg" alt="logo" class="navbar__logo"
         /></a>
 
-
         <p id="timer"></p>
-<button id="resetButton">Reset Timer</button>
+          <button id="resetButton" style="background-color: black; color: white; border-radius: 5px; padding: 5px 10px; border: none;">Reset Timer</button>
 
-<script>
-  // Set the date we're counting down to
-  var countDownDate = new Date().getTime() + 6 * 1000;
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date().getTime() + 6 * 1000;
 
-  // Update the count down every 1 second
-  var x = setInterval(function () {
-    // Get today's date and time
-    var now = new Date().getTime();
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
 
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
-    // Time calculations for minutes and seconds
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Time calculations for minutes and seconds
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Display the result in the element with id="timer"
-    document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
+        // Display the result in the element with id="timer"
+        document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
 
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("timer").innerHTML = "Take a Break!";
-    }
-  }, 1000);
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "<span style='font-size: 20px; font-weight: bold;'>Take a Break!</span>";
+          }
+          }, 1000);
 
-  // Reset Button Event Listener
-  document.getElementById("resetButton").addEventListener("click", function () {
-    clearInterval(x); // Clear existing interval
-    countDownDate = new Date().getTime() + 6 * 1000; // Reset countdown time
-    x = setInterval(function () {
-      // Same countdown timer code
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-      document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("timer").innerHTML = "Take a Break and Strech your legs!";
-      }
-    }, 1000);
-  });
-</script>
-
+        // Reset Button Event Listener
+        document.getElementById("resetButton").addEventListener("click", function () {
+        clearInterval(x); // Clear existing interval
+        countDownDate = new Date().getTime() + 6 * 1000; // Reset countdown time
+        x = setInterval(function () {
+        // Same countdown timer code
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "<span style='font-size: 20px; font-weight: bold;'>Take a Break and Stretch your legs!</span>";
+          }
+          }, 1000);
+          });
+        </script>
         
         <div class="navbar__menu">
           <button class="navbar__menu">

@@ -147,9 +147,9 @@ moodEstupendoButton.addEventListener("click", () => {
   moodCard.classList.toggle("moods__button_estupendo_active");
   moodCard.classList.toggle("moods__card_active");
   moodCardTitle.textContent = "Excellent! 🙂";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodArgument1.textContent = "That's Great!";
+  moodArgument2.textContent = "Enjoy the moment!";
+  moodArgument3.textContent = "Happiness is an emotion like any other and has its function, and you can express it.";
 
   checkClassList();
 });
@@ -158,10 +158,10 @@ moodTristeButton.addEventListener("click", () => {
   moodTristeButton.classList.toggle("moods__button_triste_active");
   moodCard.classList.toggle("moods__button_triste_active");
   moodCard.classList.toggle("moods__card_active");
- moodCardTitle.textContent = "It's normal to feel sad";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodCardTitle.textContent = "It's normal to feel this way!";
+  moodArgument1.textContent = "Feeling sad may only be temporary, keep your head up!";
+  moodArgument2.textContent = "A little positivity can change your life!";
+  moodArgument3.textContent = "Sadness is like any other and has its function, and you can express how you feel.";
 
   checkClassList();
 });
@@ -170,10 +170,10 @@ moodOkayButton.addEventListener("click", () => {
   moodOkayButton.classList.toggle("moods__button_okay_active");
   moodCard.classList.toggle("moods__button_okay_active");
   moodCard.classList.toggle("moods__card_active");
- moodCardTitle.textContent = "It's okay! 🙂";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodCardTitle.textContent = "It's okay! 🙂";
+  moodArgument1.textContent = "It's normal to feel this way!";
+  moodArgument2.textContent = "Feeling just okay is a gentle reminder of the peace within life's simple joys.";
+  moodArgument3.textContent = "Feeling just okay is an understated acknowledgment of life's gentle equilibrium, worthy of recognition in its own right.";
 
   checkClassList();
 });
@@ -183,9 +183,9 @@ moodPreocupadoButton.addEventListener("click", () => {
   moodCard.classList.toggle("moods__button_preocupado_active");
   moodCard.classList.toggle("moods__card_active");
   moodCardTitle.textContent = "It's normal to feel this way 😞";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodArgument1.textContent = "Worrying can serve as a signal, prompting us to take precautionary measures and plan ahead.";
+  moodArgument2.textContent = "Excessive worry can lead to mental distress, affecting our well-being and decision-making abilities.";
+  moodArgument3.textContent = "Worry is a natural emotion with its purpose; expressing it is valid and necessary.";
 
   checkClassList();
 });
@@ -195,9 +195,9 @@ moodEstresadoButton.addEventListener("click", () => {
   moodCard.classList.toggle("moods__button_estresado_active");
   moodCard.classList.toggle("moods__card_active");
   moodCardTitle.textContent = "Feeling this way is normal 😞";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodArgument1.textContent = "Stressed, a sign of overwhelm, reminds us to pause and recalibrate.";
+  moodArgument2.textContent = "In the chaos of stress, self-care becomes paramount for resilience.";
+  moodArgument3.textContent = "Stressed minds seek solace; finding moments of peace amid turmoil is essential.";
 
   checkClassList();
 });
@@ -207,9 +207,14 @@ moodCansadoButton.addEventListener("click", () => {
   moodCard.classList.toggle("moods__button_cansado_active");
   moodCard.classList.toggle("moods__card_active");
   moodCardTitle.textContent = "It's normal to feel this way 😞";
-moodArgument1.textContent = "Dealing with loneliness.";
-moodArgument2.textContent = "The struggle with mental health changed my life.";
-moodArgument3.textContent = "Sadness is an emotion like any other and has its function, and you can express it.";
+  moodArgument1.textContent = "Remember to prioritize rest; your body and mind need time to recharge.";
+  moodArgument2.textContent = "Don't hesitate to ask for help or delegate tasks when you're feeling exhausted.";
+  moodArgument3.textContent = "Practice self-compassion; it's okay to take breaks and listen to your body's need for rest.
+
+
+
+
+";
 
   checkClassList();
 });
